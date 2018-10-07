@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "%20//sebasegura97.github.io/marca-personal/precache-manifest.212ef7d016de9ca58e2f9dd811afc5d2.js"
+  "/marca-personal/precache-manifest.daf5aec73d2df7b6e598ec5680d1988a.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("%20//sebasegura97.github.io/marca-personal/index.html", {
+workbox.routing.registerNavigationRoute("/marca-personal/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
