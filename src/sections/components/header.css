@@ -1,0 +1,13 @@
+.header{
+    background-color: white;
+}
+.header-name{
+    color: #E01171;
+}
+
+@media only screen and (min-width: 700px) {
+    
+    .header {
+      grid-column: 1/4;
+    }
+}

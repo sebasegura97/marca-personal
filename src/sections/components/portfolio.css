@@ -1,0 +1,30 @@
+.portfolio-container{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.small-article-portfolio{
+    width: 45%;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+.portfolio-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.images-container-portfolio{
+    padding: 0;
+    margin: 0;
+    height: 30vh;
+}
+.portfolio-item-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.portfolio-text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}

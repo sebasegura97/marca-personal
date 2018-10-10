@@ -1,0 +1,14 @@
+.estudios-article{
+    background-color: white;
+    padding: 0 0 20px 0;
+    margin: auto auto 20px auto;
+    width: 90%;
+}
+.horizontal-line-pink{
+    background-color: #E01171;
+    height: .2rem;
+    margin-bottom: 10px;
+}
+.article-p{
+    margin-left: 20px;
+}

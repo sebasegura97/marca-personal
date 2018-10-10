@@ -1,0 +1,40 @@
+.resumen-container{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.resumen-image{
+    width: 100%;
+}
+.name{
+    margin: 0;
+    color: #59057B;
+}
+.article{
+    background-color: white;
+    padding: 10px;
+}
+.horizontal-line{
+    background-color: #0F0766;
+    height: .1rem;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+.sobremi{
+    margin-bottom: 10px;
+}
+.resumen-item{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    /* justify-content: space-between;  */
+}
+.item-highlight{
+    background: #E01171;
+    padding: 3px 10px 5px 10px;
+    color: white;
+}
+.item-value{
+    margin-left: 10px;
+}

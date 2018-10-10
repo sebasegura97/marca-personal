@@ -1,0 +1,9 @@
+.redes-container{
+    flex-direction: column;
+}
+.redes-article{
+    padding: 0;
+}
+.redes-text{
+    margin: 20px 0 20px 0;
+}

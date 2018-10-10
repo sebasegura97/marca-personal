@@ -1,0 +1,61 @@
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../src/fonts/Montserrat-Regular.otf');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../src/fonts/Montserrat-Black.ttf');
+    font-weight: 900;
+    font-style: normal;
+}
+/* @font-face {
+    font-family: 'Montserrat';
+    src: url('../../fonts/Montserrat-ExtraBold.otf');
+    font-weight: 800;
+    font-style: normal;
+} */
+a{
+  text-decoration: none;
+}
+h1{
+  color: white;
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin: 20px;
+}
+p{
+  color: #4A4A4A;
+  font-size: .8rem;
+  margin: 0;
+}
+body {
+  background-color: #0F0766;
+  margin: auto;
+  font-family: 'Montserrat';
+}
+h2{
+  color: white;
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin: 20px;
+  text-align: center;
+}
+h3{
+  color: #0F0766;
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin: 20px 0 5px 20px;
+}
+.app-layout{
+  display: grid;
+}
+
+@media only screen and (min-width: 700px) {
+    
+    .app-layout {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+}
