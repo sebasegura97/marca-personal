@@ -1,12 +1,12 @@
 {
-  "main.css": "/marca-personal/static/css/main.adf7de36.chunk.css",
-  "main.js": "/marca-personal/static/js/main.f536b209.chunk.js",
-  "main.js.map": "/marca-personal/static/js/main.f536b209.chunk.js.map",
+  "main.css": "/marca-personal/static/css/main.63743b51.chunk.css",
+  "main.js": "/marca-personal/static/js/main.c60a2425.chunk.js",
+  "main.js.map": "/marca-personal/static/js/main.c60a2425.chunk.js.map",
   "static/js/1.979c3040.chunk.js": "/marca-personal/static/js/1.979c3040.chunk.js",
   "static/js/1.979c3040.chunk.js.map": "/marca-personal/static/js/1.979c3040.chunk.js.map",
   "runtime~main.js": "/marca-personal/static/js/runtime~main.d078a40d.js",
   "runtime~main.js.map": "/marca-personal/static/js/runtime~main.d078a40d.js.map",
-  "static/media/app-layout.css": "/marca-personal/static/media/Montserrat-Black.6d1796a9.ttf",
+  "static/media/background.jpg": "/marca-personal/static/media/background.16fb6185.jpg",
   "static/media/react.png": "/marca-personal/static/media/react.7c0fdc49.png",
   "static/media/image1.png": "/marca-personal/static/media/image1.998e01d2.png",
   "static/media/js.png": "/marca-personal/static/media/js.71a40515.png",
@@ -20,8 +20,9 @@
   "static/media/wpp.svg": "/marca-personal/static/media/wpp.bc9e4279.svg",
   "static/media/image2.png": "/marca-personal/static/media/image2.2c6ead26.png",
   "static/media/redux.jpg": "/marca-personal/static/media/redux.f79a9399.jpg",
-  "static/css/main.adf7de36.chunk.css.map": "/marca-personal/static/css/main.adf7de36.chunk.css.map",
+  "static/media/app-layout.css": "/marca-personal/static/media/Montserrat-Black.6d1796a9.ttf",
+  "static/css/main.63743b51.chunk.css.map": "/marca-personal/static/css/main.63743b51.chunk.css.map",
   "index.html": "/marca-personal/index.html",
-  "precache-manifest.daf5aec73d2df7b6e598ec5680d1988a.js": "/marca-personal/precache-manifest.daf5aec73d2df7b6e598ec5680d1988a.js",
+  "precache-manifest.9f3cdd00813c13cfc057955bd33b778b.js": "/marca-personal/precache-manifest.9f3cdd00813c13cfc057955bd33b778b.js",
   "service-worker.js": "/marca-personal/service-worker.js"
 }

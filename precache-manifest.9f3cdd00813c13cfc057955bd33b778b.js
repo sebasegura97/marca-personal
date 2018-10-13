@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/marca-personal/static/media/tasafin.f79fd605.svg"
   },
   {
-    "revision": "f536b209dd8171f52f2a",
-    "url": "/marca-personal/static/css/main.adf7de36.chunk.css"
+    "revision": "c60a242524d9a978b1f6",
+    "url": "/marca-personal/static/css/main.63743b51.chunk.css"
   },
   {
     "revision": "979c3040d4ba6e590a1f",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/marca-personal/static/media/dayspa.0b757487.svg"
   },
   {
-    "revision": "f536b209dd8171f52f2a",
-    "url": "/marca-personal/static/js/main.f536b209.chunk.js"
+    "revision": "c60a242524d9a978b1f6",
+    "url": "/marca-personal/static/js/main.c60a2425.chunk.js"
   },
   {
     "revision": "bee22f8a31f156dad4a07f4bc850662a",
@@ -68,6 +68,10 @@ self.__precacheManifest = [
     "url": "/marca-personal/static/media/image2.2c6ead26.png"
   },
   {
+    "revision": "16fb6185b61cc076140fef79b9ba3b4a",
+    "url": "/marca-personal/static/media/background.16fb6185.jpg"
+  },
+  {
     "revision": "27e50ffd6a14cbc8221c9dbd3b5208dc",
     "url": "/marca-personal/static/media/Montserrat-Regular.27e50ffd.otf"
   },
@@ -76,7 +80,7 @@ self.__precacheManifest = [
     "url": "/marca-personal/static/media/Montserrat-Black.6d1796a9.ttf"
   },
   {
-    "revision": "a792ddbe551ab157bfb68e33180d5de0",
+    "revision": "598e8f665aa6d5ac0febce52f6cc8134",
     "url": "/marca-personal/index.html"
   }
 ];
