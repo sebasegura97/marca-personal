@@ -3,12 +3,18 @@
 }
 .redes-article{
     padding: 0;
+    box-shadow: none;
 }
 .redes-text{
     margin: 20px 0 20px 0;
 }
 @media only screen and (min-width: 700px) {
-    
+    .redes-images-container{
+        display: flex;
+    }
+    .red-container{
+        margin-bottom: 0;
+    }
     .redes-desktop {
         grid-column: 3/11;
     }
@@ -22,7 +28,7 @@
         margin: 0;
     }
     .redes-image{
-        width: 4vw;
+        width: 32px;
     }
     .redes-line{
         margin-bottom: 30px;

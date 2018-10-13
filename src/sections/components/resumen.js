@@ -29,12 +29,12 @@ function Resumen(props){
                     <p className="item-highlight">De:</p>
                     <p className="item-value">Salta - Argentina</p>
                 </div>
-                <div>
-                   {props.children}    
-                </div> 
+                
 
             </article>
-
+            <div className="redes-desktop-container">
+                {props.children}    
+            </div> 
         </section>
         
     )

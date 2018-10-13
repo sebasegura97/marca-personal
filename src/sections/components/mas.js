@@ -1,6 +1,7 @@
 import React from 'react'
 import './mas.css'
 import image2 from '../../assets/image2.png'
+
 function Mas() {
     return (
         <section className="estudios-container mas-container">

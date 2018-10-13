@@ -10,14 +10,14 @@ function Redes() {
             <h2 className="redes-title">redes</h2>
             <article className="small-article redes-article">
                 <div className="horizontal-line-pink redes-line" />
-                <div className="images-container redes-container">
+                <div className="redes-images-container redes-container">
                     <a
                         className="contactoAncla"
                         href="https://api.whatsapp.com/send?phone=5493874748181"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <div className="skill-container">
+                        <div className="skill-container red-container">
                             <img className="skills-image redes-image" src={wpp} alt="logo de wpp" />
                             <p className="redes-text">WhatsApp</p>
                         </div>
@@ -28,7 +28,7 @@ function Redes() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <div className="skill-container">
+                        <div className="skill-container red-container">
                             <img className="skills-image redes-image" src={instagram} alt="logo de instagram" />
                             <p className="redes-text">Instagram</p>
                         </div>
@@ -39,7 +39,7 @@ function Redes() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <div className="skill-container">
+                        <div className="skill-container red-container">
                             <img className="skills-image redes-image" src={phone} alt="icono de telefono" />
                             <p className="redes-text">Telefono</p>
                         </div>

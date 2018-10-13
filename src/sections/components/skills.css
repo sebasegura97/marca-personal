@@ -9,6 +9,8 @@
     background-color: white;
     padding: 0 0 20px 0;
     margin: auto auto 20px auto;
+    box-shadow: -3px 3px 6px 1px rgba(0,0,0,0.5);
+
 }
 .skills-image{
     width: 25vw;
@@ -59,6 +61,6 @@
     }
     .images-container{
         margin: 20px auto;
-        width: 85%;
+        width: 65%;
     }
 }

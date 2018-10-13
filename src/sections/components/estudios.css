@@ -3,6 +3,8 @@
     padding: 0 0 20px 0;
     margin: auto auto 20px auto;
     width: 90%;
+    box-shadow: -3px 3px 6px 1px rgba(0,0,0,0.5);
+
 }
 .horizontal-line-pink{
     background-color: #E01171;
