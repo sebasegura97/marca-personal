@@ -3,7 +3,7 @@ import './mas.css'
 import image2 from '../../assets/image2.png'
 function Mas() {
     return (
-        <section className="estudios-container">
+        <section className="estudios-container mas-container">
             <h2>mas sobre mi</h2>
             <article className="small-article mas-article"
                      style={{ backgroundImage: `url(${image2})` }}

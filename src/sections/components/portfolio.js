@@ -9,7 +9,7 @@ import snap from '../../assets/snap.svg'
 
 function Portfolio() {
     return (
-        <section className="portfolio-container">
+        <section className="portfolio-container portfolio-desktop">
             <h2>portfolio</h2>
             <div className="portfolio-flex">
                 <article className="small-article small-article-portfolio">
@@ -17,7 +17,7 @@ function Portfolio() {
                         <div className="horizontal-line-pink" />
                         <div className="images-container images-container-portfolio ">
                             <div className="portfolio-item-container">
-                                <img className="skills-image" src={github} alt="logo de html" />
+                                <img className="skills-image portfolio-image" src={github} alt="logo de html" />
                                 <p className="portfolio-text">GITHUB</p>
                             </div>
                         </div>
@@ -28,7 +28,7 @@ function Portfolio() {
                         <div className="horizontal-line-pink" />
                         <div className="images-container images-container-portfolio ">
                             <div className="portfolio-item-container">
-                                <img className="skills-image" src={dayspa} alt="logo de html" />
+                                <img className="skills-image portfolio-image" src={dayspa} alt="logo de html" />
                                 <p className="portfolio-text">DAY SPA</p>
                             </div>
                         </div>
@@ -39,7 +39,7 @@ function Portfolio() {
                         <div className="horizontal-line-pink" />
                         <div className="images-container images-container-portfolio ">
                             <div className="portfolio-item-container">
-                                <img className="skills-image" src={tasafin} alt="logo de html" />
+                                <img className="skills-image portfolio-image" src={tasafin} alt="logo de html" />
                                 <p className="portfolio-text">TASAFIN</p>
                             </div>
                         </div>
@@ -50,7 +50,7 @@ function Portfolio() {
                         <div className="horizontal-line-pink" />
                         <div className="images-container images-container-portfolio ">
                             <div className="portfolio-item-container">
-                                <img className="skills-image" src={cayro} alt="logo de html" />
+                                <img className="skills-image portfolio-image" src={cayro} alt="logo de html" />
                                 <p className="portfolio-text">CAYRO</p>
                             </div>
                         </div>
@@ -61,7 +61,7 @@ function Portfolio() {
                         <div className="horizontal-line-pink" />
                         <div className="images-container images-container-portfolio ">
                             <div className="portfolio-item-container">
-                                <img className="skills-image" src={snap} alt="logo de html" />
+                                <img className="skills-image portfolio-image" src={snap} alt="logo de html" />
                                 <p className="portfolio-text">SNAP MARKET</p>
                             </div>
                         </div>

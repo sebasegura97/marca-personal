@@ -2,7 +2,7 @@ import React from 'react'
 import './estudios.css'
 function Estudios(){
     return(
-        <section className="estudios-container">
+        <section className="estudios-container estudios-desktop">
             <h2>estudios</h2>
             <article className="estudios-article">
                 <div className="horizontal-line-pink"/>

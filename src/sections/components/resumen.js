@@ -2,15 +2,15 @@ import React from 'react'
 import image1 from '../../assets/image1.png'
 import './resumen.css'
 
-function Resumen(){
+function Resumen(props){
     return(
-        <section className="resumen-container">
+        <section className="resumen-container resumen-margin">
             <img 
                 src={image1} 
                 alt="una foto mia"
                 className="resumen-image"
             />
-            <article className="article">
+            <article className="article article-resumen">
                 <h1 className="name">Sebastian Segura</h1>
                 <p className="description">Programador frontend - 
                     <br/> Estudiante de ingenieria en informatica
@@ -28,6 +28,9 @@ function Resumen(){
                 <div className="resumen-item">
                     <p className="item-highlight">De:</p>
                     <p className="item-value">Salta - Argentina</p>
+                </div>
+                <div>
+                   {props.children}    
                 </div> 
 
             </article>

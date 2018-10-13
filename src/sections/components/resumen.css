@@ -38,3 +38,32 @@
 .item-value{
     margin-left: 10px;
 }
+
+@media only screen and (min-width: 700px) {
+    
+    .resumen-container {
+      flex-direction: row;
+    }
+    .resumen-image{
+        width: auto;
+        height: 50vh;
+    }
+    .article-resumen{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding: 0 2vw 0 2vw;
+    }
+    .horizontal-line{
+        height: .2rem;
+        background-color: #E01171;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    
+    .resumen-margin{
+        margin-top: 10vh;
+    }
+}

@@ -12,3 +12,9 @@
 .article-p{
     margin-left: 20px;
 }
+@media only screen and (min-width: 700px) {
+    
+    .estudios-desktop {
+        grid-column: 3/11;
+    }
+}

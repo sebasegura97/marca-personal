@@ -6,10 +6,10 @@ import wpp from '../../assets/wpp.svg'
 
 function Redes() {
     return (
-        <section className="estudios-container">
-            <h2>redes</h2>
+        <section className="estudios-container redes-desktop">
+            <h2 className="redes-title">redes</h2>
             <article className="small-article redes-article">
-                <div className="horizontal-line-pink" />
+                <div className="horizontal-line-pink redes-line" />
                 <div className="images-container redes-container">
                     <a
                         className="contactoAncla"
@@ -18,7 +18,7 @@ function Redes() {
                         rel="noopener noreferrer"
                     >
                         <div className="skill-container">
-                            <img className="skills-image" src={wpp} alt="logo de wpp" />
+                            <img className="skills-image redes-image" src={wpp} alt="logo de wpp" />
                             <p className="redes-text">WhatsApp</p>
                         </div>
                     </a>
@@ -29,7 +29,7 @@ function Redes() {
                         rel="noopener noreferrer"
                     >
                         <div className="skill-container">
-                            <img className="skills-image" src={instagram} alt="logo de instagram" />
+                            <img className="skills-image redes-image" src={instagram} alt="logo de instagram" />
                             <p className="redes-text">Instagram</p>
                         </div>
                     </a>
@@ -40,7 +40,7 @@ function Redes() {
                         rel="noopener noreferrer"
                     >
                         <div className="skill-container">
-                            <img className="skills-image" src={phone} alt="icono de telefono" />
+                            <img className="skills-image redes-image" src={phone} alt="icono de telefono" />
                             <p className="redes-text">Telefono</p>
                         </div>
                     </a>

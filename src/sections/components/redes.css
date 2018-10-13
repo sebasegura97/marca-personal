@@ -7,3 +7,33 @@
 .redes-text{
     margin: 20px 0 20px 0;
 }
+@media only screen and (min-width: 700px) {
+    
+    .redes-desktop {
+        grid-column: 3/11;
+    }
+    .redes-container{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin: 0;
+        justify-content: space-between;
+    }
+    .redes-article{
+        margin: 0;
+    }
+    .redes-image{
+        width: 4vw;
+    }
+    .redes-line{
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .redes-title{
+        color: #59057B;
+        text-transform: capitalize;
+        margin-left: 0;
+        text-align: left;
+        font-weight: 300;
+    }
+}
