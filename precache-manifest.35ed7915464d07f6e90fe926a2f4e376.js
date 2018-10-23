@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/marca-personal/static/media/wpp.bc9e4279.svg"
   },
   {
-    "revision": "58a320dc977341ae4929",
-    "url": "/marca-personal/static/css/main.84768f15.chunk.css"
+    "revision": "e852030c040ccd0ca92b",
+    "url": "/marca-personal/static/css/main.00f12fa9.chunk.css"
   },
   {
     "revision": "16fb6185b61cc076140fef79b9ba3b4a",
@@ -64,8 +64,8 @@ self.__precacheManifest = [
     "url": "/marca-personal/static/media/instagram.7dcdb7c5.svg"
   },
   {
-    "revision": "58a320dc977341ae4929",
-    "url": "/marca-personal/static/js/main.58a320dc.chunk.js"
+    "revision": "e852030c040ccd0ca92b",
+    "url": "/marca-personal/static/js/main.e852030c.chunk.js"
   },
   {
     "revision": "2c6ead26164b357f47e2e9a8665e02c5",
@@ -128,7 +128,7 @@ self.__precacheManifest = [
     "url": "/marca-personal/static/css/1.a636578d.chunk.css"
   },
   {
-    "revision": "f47b51118180a9ee06e6a9f768920a93",
+    "revision": "04ac7186333eff0e3a380d04d68b1df7",
     "url": "/marca-personal/index.html"
   }
 ];
