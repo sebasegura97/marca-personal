@@ -32,8 +32,9 @@ p{
   margin: 0;
 }
 body {
-  background-image: url("./assets/background.jpg");
+  background-image: url("./assets/Back.svg");
   background-color: #0F0766;
+  background-size: cover;
   margin: auto;
   font-family: 'Montserrat';
 }

@@ -37,9 +37,12 @@
 .skills-image-firebase{
     width:13vw;
 }
+.firebase-image{
+    width: auto;
+    height: 70px;
+}
 
 @media only screen and (min-width: 700px) {
-    
     .skills-desktop {
         display: grid;
         grid-column-gap: 20px;
@@ -56,6 +59,10 @@
     }
 
     .skills-image-desktop{
+        height: 72px;
+        width: auto;
+    }
+    .firebase-image{
         height: 72px;
         width: auto;
     }

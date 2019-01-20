@@ -4,7 +4,7 @@ import './resumen.css'
 
 function Resumen(props){
     return(
-        <section className="resumen-container resumen-margin">
+        <section className="resumen-container resumen-margin" id="resumen">
             <img 
                 src={image1} 
                 alt="una foto mia"

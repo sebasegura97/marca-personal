@@ -7,13 +7,24 @@ import Estudios from './sections/components/estudios';
 import Skills from './sections/components/skills';
 import Portfolio from './sections/components/portfolio';
 import Redes from './sections/components/redes';
-import Mas from './sections/components/mas';
+import Mas from './sections/containers/mas';
 
 
 
 class App extends Component {
-  state = { width: 0, height: 0 };
+  state = { 
+      width: 0, 
+      height: 0, 
+    };
 
+  onOpenModal = () => {
+    this.setState({ modalVisible: true });
+  };
+
+  onCloseModal = () => {
+    this.setState({ modalVisible: false });
+  };
+  
   componentDidMount() {
     this.updateWindowDimensions();
     window.addEventListener('resize', this.updateWindowDimensions);
@@ -27,6 +38,15 @@ class App extends Component {
     this.setState({ width: window.innerWidth, height: window.innerHeight });
     
   }
+
+  verCertificados = () => {
+    return(
+      this.setState({
+        modalVisible: true,
+      })
+    )
+  }
+
 
   render() {
     // let resumen;

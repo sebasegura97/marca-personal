@@ -6,6 +6,9 @@
   "dependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "react-modal": "^3.6.1",
+    "react-responsive-carousel": "^3.1.43",
+    "react-responsive-modal": "^3.4.0",
     "react-scripts": "2.0.4"
   },
   "scripts": {

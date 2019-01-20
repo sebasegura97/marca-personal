@@ -59,7 +59,7 @@ function Skills() {
                         <p>REDUX</p>
                     </div>
                     <div className="skill-container">
-                        <img className="skills-image skills-image-desktop" src={firebase} alt="logo de firebase" />
+                        <img className="skills-image firebase-image skills-image-desktop" src={firebase} alt="logo de firebase" />
                         <p>FIREBASE</p>
                     </div>
                 </div>

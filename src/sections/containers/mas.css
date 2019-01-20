@@ -1,0 +1,115 @@
+.mas-article{
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.mas-article::after{
+    content: "";
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(255,255,255,0.7);
+}
+.mas-text{
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+.closeModal{
+    background: rgba(0,0,0,.6);
+    color: white;
+    font-weight: 800;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    margin-right: 20px;
+    margin-left: auto;
+    transition: .3s;
+    z-index: 3;
+    position: relative;
+    outline: none;
+
+}
+.closeModal:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .3s;
+}
+.verCertificado{
+    background: none;
+    color: #E01171;
+    border: none;
+    justify-self: flex-end;
+    z-index: 3;
+    position: relative;
+    margin-left: auto;
+    margin-right: 20px;
+    transition: .3s;
+    outline: none;
+
+}
+.verCertificado:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .3s;
+    
+}
+  .Modal {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    bottom: 40px;
+    background-color: white;
+    overflow: auto;
+    width: 800px;
+    margin: auto;
+
+  }
+
+  .Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.7);
+    z-index: 3;
+  }
+@media only screen and (max-width: 700px) {
+
+    .Overlay{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,.7);
+        z-index: 3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Modal{
+        position: absolute;
+        left: 0;
+        top: auto;
+        bottom: auto;
+        right: 0;
+        z-index: 3;
+        background-color: white;
+        width: auto;
+    }
+    .mas-container {
+        grid-column: 3/11;
+    }
+}
